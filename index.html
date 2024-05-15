@@ -1,19 +1,53 @@
-<!DOCTYPE html>
-<html lang="ru">  
+<!DOCTYPE html> 
+<html lang="RU"> 
   <head> 
     <meta charset="UTF-8"> 
-    <meta http-equiv="X-RU-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title> TourAuto </title> 
+    <meta http-equiv="X-RU-Compatible" 
+          content="IE=edge"> 
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0"> 
+    <title>TourAuto</title> 
+    <style> 
+      body { background-color: #DCDCDC; font-family: Arial, sans-serif; 
+      } 
+      header { 
+        background-color: #D3D3D3; 
+        color: white; 
+        padding: 5px; 
+        text-align: left; 
+      } 
+      nav { 
+        display: flex; 
+        justify-content: space-around; 
+        margin-top: 10px; 
+      } 
+      logo {
+        float: left;
+      } 
+      main { 
+        padding: 20px; 
+      } 
+    </style> 
   </head> 
-   <body bgcolor="#DCDCDC">   
-    <div style= "display: flex;">
-      <img height="100" width="100" src="img/logo.png">
-      <br>
-<p class="rightstr"> Каталог </p>
-<p class="rightstr"> TourDetails </p>
-<p class="rightstr"> Контакты </p>
-<p class="rightstr"> О компании</p>
-</div>
+  <body> 
+    <header> 
+      <div class="logo"> 
+        <img src="img/logo.png" width="100"> 
+      </div> 
+      <nav> 
+        <a href="#"><h1>Модели автомобилей</a></h1> 
+        <a href="#"><h1>Контакты</a> </h1>
+        <a href="#"><h1>Партнер</a> </h1>
+      </nav> 
+    </header> 
+    <main> 
+      <h1>Добро пожаловать в автосалон WLada!</h1> 
+      <p>У нас вы можете приобрести качественные автомобили Lada по выгодным ценам. Наши консультанты всегда рады помочь вам с выбором!</p> 
+      <h2>Новости российского автопрома</h2> 
+      <p>Здесь будут новости про российский автопром</p> 
+      <footer>
+        <center> &copy; 2024 TourAuto
+      </footer>
+    </main> 
   </body> 
 </html>
